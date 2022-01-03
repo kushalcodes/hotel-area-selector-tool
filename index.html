@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Tool</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tool.css">
+</head>
+
+<body>
+
+    <div id="point"></div>
+
+    <img id='image' src='https://pix10.agoda.net/hotelImages/8515928/-1/2757b14c0680924208c33f286eab4c46.jpg?s=1024x768' width="40%" height="40%" />
+
+    <form class="p-5">
+        <div class="form-row">
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Left" id="pointLeft" data-toggle="tooltip" data-placement="top" title="Left">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Top" id="pointTop" data-toggle="tooltip" data-placement="top" title="Top">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Width" id="pointWidth" data-toggle="tooltip" data-placement="top" title="Width">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Height" id="pointHeight" data-toggle="tooltip" data-placement="top" title="Height">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Rotate" id="pointRotate" data-toggle="tooltip" data-placement="top" title="Rotate">
+            </div>
+            <button class="btn btn-info btn-sm">Assign this to a room</button>
+        </div>
+    </form>
+
+    <script src="tool.js"></script>
+
+</body>
+
+</html>
